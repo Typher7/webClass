@@ -29,3 +29,7 @@ dt {
 .resort {
     color: #1976D2;
 }
+
+h1 {
+    margin-bottom: 0;
+}
