@@ -4,10 +4,42 @@
 
 
 body { background-color: #F5F5F5;
-       color: #40407A; 
+       color: #40407A;
+       font-family: Verdana, Arial, sans-serif;
 }
 
-header { background-color: #80CBC4; }
+header { 
+       background-color: #80CBC4;
+       background-image: url(images/lilyheader.jpg);
+       background-position: right;
+       background-repeat: no-repeat;
+ }
 
+ nav{
+       font-weight: bold;
+       text-align: center;
+ }
 
-footer { background-color: #80CBC4; }
+ nav a{
+       text-decoration: none;
+ }
+
+ h1 {
+       line-height: 400%;
+       text-indent: 1em;
+ }
+
+ footer {
+       background-color: #80CBC4;
+       text-align: center;
+       font-style: italic;
+       font-size: small;
+ }
+
+ li {
+       font-size: 90%;
+ }
+
+ dd {
+       font-size: 90%;
+ }
