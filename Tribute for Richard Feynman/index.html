@@ -14,55 +14,78 @@
         <title>Richard Feynman</title>
 
 		<style>
-			header {color: AntiqueWhite;
-					background-color: #00df9a;
+			header {color: white;
 					background-image: url(images/bkg.jpg);
-					background-repeat: none;
+					background-repeat: repeat-x;
+					height:fit-content;
+					padding: 2px 2px 2px;
 					}
 			
 			main	{background-color: AntiqueWhite;}
 			
-			h1		{text-align: left;
+			h1		{text-align: center;
 					font-size: 3em;
-					text-shadow: 1px 1px black; }
+					text-shadow: 1px 1px 2px #00df9a;
+					}
 			
 			p		{font-size: 2.2em;
 					font-family:Georgia, 'Times New Roman', Times, serif;
+					background-image: linear-gradient(to right, AntiqueWhite, white);
 					border-style: solid;
-					text-align: center;}
+					margin: 1em;
+					text-align: center;
+					box-shadow: 2px 2px 2px 2px #31423d;
+				}
 			
 			footer	{text-align: center;
-					font-size: .80em;}
+					font-style: italic;
+					font-size: .80em;
+					padding: .5em;
+				}
 
 			li		{font-size: 1.2em;
 					font-family: Georgia, 'Times New Roman', Times, serif;}
 			
+			#container {
+				background-color: white;
+				margin-left: auto; margin-right: auto;
+				width: 90%;
+				min-width: 800px;
+				box-shadow: 5px 5px 5px #31423d;
+			}
+
+			#profile {
+				padding: 1em;
+			}
+			
 		</style>
 	</head>
 	<body>
-		<header> 
-			<h1>Richard Feynman</h1>
-		</header>
-		<main>
-			<div>
-				<img src="images/richard.webp" align="right" alt="Image of Richard Feynman" height="80%" width="300">
-			</div>
-			<p>He was an American theoretical physicist who was widely regarded as the most brilliant, influential, and iconoclastic figure in his field in the post-World War II era.</p>
-			<h3><b>Richard Feynman's glorious life: </b></h3>
-			<ul>
-                <li><strong>1918</strong>: Born on May 11 in New York, NY.</li>
-                <li><strong>1942-1945</strong>: Worked on the Manhattan Project during World War II.</li>
-                <li><strong>1942</strong>: Received Ph.D. from Princeton University.</li>
-                <li><strong>1950</strong>: Began teaching at the California Institute of Technology (Caltech).</li>
-                <li><strong>1959</strong>: Delivered the most famous lecture <i>"There's Plenty of Room at the Bottom," </i>which is considered a foundational talk for nanotechnology.</li>
-                <li><strong>1965</strong>: Awarded the Nobel Prize in Physics for his work in quantum electrodynamics.</li>
-                <li><strong>1985</strong>: Published his autobiography <i>"Surely You're Joking, Mr. Feynman!"</i>.</li>
-                <li><strong>1986</strong>: Served on the Rogers Commission to investigate the Space Shuttle Challenger disaster.</li>
-                <li><strong>1988</strong>: Passed away on February 15 in Los Angeles, CA.</li>
-			</ul>
-		</main>
-		<footer>
-            <a href="https://www.britannica.com/biography/Richard-Feynman" target="_blank"> Richard Feynman's Britannica Page</a>    
-        </footer>
+		<div id="container">
+			<header>
+				<h1>Richard Feynman</h1>
+			</header>
+			<main>
+				<div id="profile">
+					<img src="images/rich.webp" alt="Image of Richard Feynman" height="100%" width="300">
+				</div>
+				<p>He was an American theoretical physicist who was widely regarded as the most brilliant, influential, and iconoclastic figure in his field in the post-World War II era.</p>
+				<h3><b>Richard Feynman's glorious life: </b></h3>
+				<ul>
+							<li><strong>1918</strong>: Born on May 11 in New York, NY.</li>
+							<li><strong>1942-1945</strong>: Worked on the Manhattan Project during World War II.</li>
+							<li><strong>1942</strong>: Received Ph.D. from Princeton University.</li>
+							<li><strong>1950</strong>: Began teaching at the California Institute of Technology (Caltech).</li>
+							<li><strong>1959</strong>: Delivered the most famous lecture <i>"There's Plenty of Room at the Bottom," </i>which is considered a foundational talk for nanotechnology.</li>
+							<li><strong>1965</strong>: Awarded the Nobel Prize in Physics for his work in quantum electrodynamics.</li>
+							<li><strong>1985</strong>: Published his autobiography <i>"Surely You're Joking, Mr. Feynman!"</i>.</li>
+							<li><strong>1986</strong>: Served on the Rogers Commission to investigate the Space Shuttle Challenger disaster.</li>
+							<li><strong>1988</strong>: Passed away on February 15 in Los Angeles, CA.</li>
+				</ul>
+			</main>
+			<footer>
+						<a href="https://www.britannica.com/biography/Richard-Feynman" target="_blank"> Richard Feynman's Britannica Page</a>    
+					</footer>
+		</div>
 	</body>
 </html>
